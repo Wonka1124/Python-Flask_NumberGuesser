@@ -7,12 +7,12 @@ def get_db():
         host='localhost',
         database='project1_db',
         user='postgres',
-        password='Qaszplkm1'
+        password='123123'
     )
     return conn 
 
 app = Flask(__name__)
-app.secret_key = 'Qaszplkm1'
+app.secret_key = '123123'
 
 @app.route('/')
 def index():
